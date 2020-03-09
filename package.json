@@ -1,0 +1,31 @@
+{
+  "name": "catchmind",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev:server": "nodemon --exec babel-node src/server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manggong/catchmind.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manggong/catchmind/issues"
+  },
+  "homepage": "https://github.com/manggong/catchmind#readme",
+  "devDependencies": {
+    "@babel/core": "^7.8.7",
+    "@babel/preset-env": "^7.8.7",
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "@babel/node": "^7.8.7",
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  }
+}
